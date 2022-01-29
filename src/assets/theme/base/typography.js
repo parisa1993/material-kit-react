@@ -21,15 +21,16 @@ Coded by www.creative-tim.com
 
 // Material Kit 2 React Base Styles
 import colors from "assets/theme/base/colors";
-
+// import fonts from ""
+import "../../style/index.css";
 // Material Kit 2 React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { dark } = colors;
 
 const baseProperties = {
-  fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-  fontFamily2: '"Roboto Slab", sans-serif',
+  fontFamily: '"IRANSans", sans-serif',
+  fontFamily2: '"IRANSans", sans-serif',
   fontWeightLighter: 100,
   fontWeightLight: 300,
   fontWeightRegular: 400,
